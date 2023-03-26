@@ -23,6 +23,13 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+* Nota: El  UsersModule se puede eliminar del AuthModule  (auth.module.ts) y funcionaria exactamente igual, porque lo unico que
+necesitamos es el UsersService que tendremos que incluirlo en el auth.module.ts:
+```
+import { UsersService } from '../users/users.service';
+...
+ providers: [AuthService, UsersService, LocalStrategy],
+ ```
 ### Ramas:
 * main: Estrategia Local.
 * jwt : Estrategia :jwtStrategy
