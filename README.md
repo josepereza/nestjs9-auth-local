@@ -25,7 +25,7 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-## Ejemplo de Authentication
+## Ejemplo de Authentication Local
 
 ```
 $ # POST to /auth/login
