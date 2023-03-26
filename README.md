@@ -26,7 +26,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Authentication
+## Ejemplo de Authentication con jwtStrategy
 ```
 $ # GET /profile
 $ curl http://localhost:3000/profile
