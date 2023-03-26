@@ -25,7 +25,17 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Ejemplo de Authentication
 
+```
+$ # POST to /auth/login
+$ curl -X POST http://localhost:3000/auth/login -d '{"username": "john", "password": "changeme"}' -H "Content-Type: application/json"
+$ # result -> {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."}
+$ # Note: above JWT truncated
+
+$ # POST to /
+$ # curl -X POST http://localhost:3000 -d '{"username": "reza@gmail.com", "password": "123456"}' -H "Content-Type: application/json"
+```
 ## Installation
 
 ```bash
