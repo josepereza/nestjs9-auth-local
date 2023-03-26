@@ -32,7 +32,7 @@ import { UsersService } from '../users/users.service';
  ```
 ### Ramas:
 * main: Estrategia Local.
-* jwt : Estrategia :jwtStrategy
+* jwt : Estrategia jwtStrategy
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 ## Ejemplo de Authentication Local
